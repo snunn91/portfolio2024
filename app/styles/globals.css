@@ -21,8 +21,11 @@ body {
   color: #3f3f46;
   background-color: rgb(226, 232, 240);
   background-image: radial-gradient(at 18% 90%, rgb(214, 211, 209) 0, transparent 79%), radial-gradient(at 30% 19%, rgb(59, 130, 246) 0, transparent 41%), radial-gradient(at 69% 86%, rgb(253, 230, 138) 0, transparent 32%);
+  background-repeat: no-repeat;
 }
-
+.custom-height {
+  height: calc(100% - 75px);
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

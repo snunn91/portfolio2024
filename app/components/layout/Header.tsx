@@ -3,11 +3,9 @@ import { faGithub as Git, faLinkedin as LinkedIn } from '@fortawesome/free-brand
 
 import IconLink from '../navigation/IconLink';
 
-interface HeaderProps {
 
-  }
 
-const Header: React.FC<HeaderProps> = ({ }) => {
+const Header: React.FC = ({ }) => {
     return (
         <header className="flex justify-end ">
         <ul className="flex items-center justify-end gap-x-6">
